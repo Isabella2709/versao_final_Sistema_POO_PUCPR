@@ -1,25 +1,13 @@
-#Sistema atualizado com Lista contendo os financiamentos#
+# Sistema atualizado com Lista contendo os financiamentos #
+
+O que devo desenvolver?
 
 1. Todos os requisitos das semanas anteriores.
 
-2. Converter a classe financiamento para uma classe abstrata.
+2. Na classe InterfaceUsuario, modifique os métodos que criou para que tenham tratamento de exceções para lidar com situações como, por exemplo, entrada de dados inválidos.
 
-a. Mover todos os métodos comuns para essa classe.
+a. Isso significa que os seus métodos deverão ter try/catch, ou try/catch/finally.
 
-b. Fazer com que as subclasses concretas (casa, apartamento e terreno) implementem os métodos definidos por essa classe.
+3. Na classe casa, crie uma exceção do tipo DescontoMaiorDoQueJurosException quando o valor do desconto dado for maior do que o valor dos juros da mensalidade.
 
-3. Para as três subclasses de financiamento incluir novos atributos específicos a cada uma das subclasses:
-
-a. Casa:
-
-i. Incluir um atributo para o tamanho da área construída, e outro atributo para o tamanho do terreno.
-
-b. Apartamento:
-
-i. Incluir um atributo para o número de vagas da garagem, e outro atributo para o número do andar.
-
-c. Terreno:
-
-i. Incluir um atributo para o tipo de zona (exemplo: residencial ou comercial).
-
-4. Modificar o método main() para que você consiga cadastrar os diferentes financiamentos considerando esses novos atributos.
+a. Isso significa que esta classe deverá usar o throw. Além disso, você terá de criar o DescontoMaiorDoQueJurosException, segundo os exemplos da semana.
